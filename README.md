@@ -48,3 +48,7 @@ This version factors TextInput into a custom component "SearchInput". The steps 
 
 ## Stage 4
 This version adds an image background to the screen. The steps to arrive at this stage are covered in chapter 1 up to page 52.
+
+
+## Stage 5
+This version allows users to enter a city name and updates the location name on the screen. The steps to arrive at this stage are covered in chapter 1 up to page 66.
