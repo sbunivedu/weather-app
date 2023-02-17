@@ -39,3 +39,6 @@ To log messages to JavaScript console, you can use `console.log()`, `console.war
 
 ## Stage 1
 This version shows a piece of place holder text in the center of the screen. The steps are covered in chapter 1 up to page 27.
+
+## Stage 2
+This version shows static weather info with style. The steps to arrive at this stage are covered in chapter 1 up to page 40.
