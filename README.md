@@ -36,3 +36,6 @@ The `constructor` method is called before the component is _first_ mounted/insta
 React Navtive provides "lifecycle methods" we can override to "hook" into lifecycles events, in which components are instantiated, changed, or destroyed. `componentDidMount()` is called _after_ the component is mounted, so it is common to trigger network requests to fetch data that the component would need. For a visual reference, check out [this lifecycle diagram](https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/).
 
 To log messages to JavaScript console, you can use `console.log()`, `console.warn()`, or `console.error()` according the severity of the messages.
+
+## Stage 1
+This version shows a piece of place holder text in the center of the screen. The steps are covered in chapter 1 up to page 27.
