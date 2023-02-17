@@ -42,3 +42,6 @@ This version shows a piece of place holder text in the center of the screen. The
 
 ## Stage 2
 This version shows static weather info with style. The steps to arrive at this stage are covered in chapter 1 up to page 40.
+
+## Stage 3
+This version factors TextInput into a custom component "SearchInput". The steps to arrive at this stage are covered in chapter 1 up to page 46.
