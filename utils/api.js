@@ -1,16 +1,18 @@
 export const fetchLocationId = async city => {
   const response = await fetch(
-    `https://www.metaweather.com/api/location/search/?query=${city}`,
+    `https://mockapi.lubaochuan.repl.co/search/?query=${city}`,
   );
   const locations = await response.json();
+  console.log(JSON.stringify(locations));
   return locations[0].woeid;
 };
 
 export const fetchWeather = async woeid => {
   const response = await fetch(
-    `https://www.metaweather.com/api/location/${woeid}/`,
+    `https://mockapi.lubaochuan.repl.co/location/${woeid}/`,
   );
   const { title, consolidated_weather } = await response.json();
+  console.log(JSON.stringify(consolidated_weather));
   const { weather_state_name, the_temp } = consolidated_weather[0];
 
   return {

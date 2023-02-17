@@ -52,3 +52,8 @@ This version adds an image background to the screen. The steps to arrive at this
 
 ## Stage 5
 This version allows users to enter a city name and updates the location name on the screen. The steps to arrive at this stage are covered in chapter 1 up to page 66.
+
+## Stage 6
+This version fetch weather data from an API. The steps to arrive at this stage are covered in chapter 1 up to page 82.
+
+Because "metaweather.com" API is no longer available. We will change the API URL to a mock API. Please check out the `api.js` for details.
