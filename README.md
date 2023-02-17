@@ -45,3 +45,6 @@ This version shows static weather info with style. The steps to arrive at this s
 
 ## Stage 3
 This version factors TextInput into a custom component "SearchInput". The steps to arrive at this stage are covered in chapter 1 up to page 46.
+
+## Stage 4
+This version adds an image background to the screen. The steps to arrive at this stage are covered in chapter 1 up to page 52.
